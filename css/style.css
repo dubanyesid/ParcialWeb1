@@ -13,6 +13,11 @@
 .navbar-toggle {
     float: left;
 }
+li:hover{
+    background-color: rgb(125, 125, 128);
+    transition: 150ms;
+    color: white;
+}
 
 #logo {
     width: 200%;
@@ -33,16 +38,20 @@
     float: none;
     padding: 10px;
   }
+.d-flex{
+    padding-left: 400px;
+}
+.btn-outline-success{
+    background: rgb(139, 138, 139);
+color: rgb(48, 48, 49);
+}
+.btn-outline-success:hover{
+    color: black;
+}
+
   div a {
     padding: 12px;
     color: white;
-  }
-  #logoBuscar{
-      background-image: url(../img/imgBuscar.jpg);
-      background-size: 100% 100%;
-      width: 10%;
-      color: #c0bcbc;
-
   }
   .footer
 {
