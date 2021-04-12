@@ -1,5 +1,5 @@
-function cargarJson(url) {
-    var url = "http://demo6497253.mockable.io/categoria/deporte";
+function cargarJson() {
+    var url = "http://demo6497253.mockable.io/categoria/tecnologia";
 
     fetch(url)
         .then(response => response.json())
@@ -8,9 +8,9 @@ function cargarJson(url) {
 }
 
 function generarNoticias(json) {
-    const tabla = document.getElementById("tabla_deportes");
+    const tabla = document.getElementById("tabla_tecnologia");
 
-    for (let i in json) {
+    for (let i = 0; i < 25; i++) {
 
         console.log(json)
         tabla.innerHTML += `<hr><tr>
