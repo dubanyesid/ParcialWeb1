@@ -18,7 +18,10 @@
 #logo {
     width: 200%;
     height:120px;
-    padding-left: 50%;
+}
+#circulo{
+    left: 0;
+    float: left;
 }
 #logo2{
     width: 50px;
@@ -34,4 +37,11 @@
   div a {
     padding: 12px;
     color: white;
+  }
+  #logoBuscar{
+      background-image: url(../img/imgBuscar.jpg);
+      background-size: 100% 100%;
+      width: 10%;
+      color: #c0bcbc;
+
   }
