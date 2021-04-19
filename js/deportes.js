@@ -1,5 +1,5 @@
-function cargarJson(url) {
-    var url = "http://demo6497253.mockable.io/categoria/deporte";
+function cargarJsonDeportes(url) {
+    var url = "https://carlosreneas.github.io/endpoints/categoria_deporte.json";
 
     fetch(url)
         .then(response => response.json())
@@ -18,4 +18,4 @@ function generarNoticias(json) {
                         </tr>`
     }
 }
-cargarJson();
+cargarJsonDeportes();
